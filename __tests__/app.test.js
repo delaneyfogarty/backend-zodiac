@@ -17,6 +17,8 @@ describe('backend-express-template routes', () => {
     expect(res.body).toEqual({
       id: '10',
       name: 'scorpio',
+      dates: 'Oct 23 - Nov 21',
+      symbol: 'Scorpion',
     });
   });
   afterAll(() => {
